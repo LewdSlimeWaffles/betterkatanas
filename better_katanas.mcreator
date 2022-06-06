@@ -550,7 +550,7 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "yami_advita_slash",
-      "path": "~/Special Ability Stuff"
+      "path": "~/Procedures/Katana Abilities"
     },
     {
       "name": "YamiKatanaRightclicked",
@@ -821,19 +821,7 @@
         "children": []
       },
       {
-        "name": "Boss Spawn Blocks",
-        "children": []
-      },
-      {
         "name": "Structures",
-        "children": []
-      },
-      {
-        "name": "testing things",
-        "children": []
-      },
-      {
-        "name": "Special Ability Stuff",
         "children": []
       }
     ]
