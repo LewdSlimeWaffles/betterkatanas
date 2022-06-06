@@ -18,6 +18,7 @@ import net.minecraft.world.entity.Entity;
 
 import betterkatanas.entity.YamiSukehiroEntity;
 import betterkatanas.entity.YamiAdvitaSlashEntity;
+import betterkatanas.entity.SasukeUchihaEntity;
 import betterkatanas.entity.AkameBossEntity;
 
 import betterkatanas.BetterKatanasMod;
@@ -39,6 +40,11 @@ public class BetterKatanasModEntities {
 			EntityType.Builder.<YamiAdvitaSlashEntity>of(YamiAdvitaSlashEntity::new, MobCategory.MISC)
 					.setCustomClientFactory(YamiAdvitaSlashEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<SasukeUchihaEntity>> SASUKE_UCHIHA = register("sasuke_uchiha",
+			EntityType.Builder.<SasukeUchihaEntity>of(SasukeUchihaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SasukeUchihaEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -49,6 +55,7 @@ public class BetterKatanasModEntities {
 		event.enqueueWork(() -> {
 			AkameBossEntity.init();
 			YamiSukehiroEntity.init();
+			SasukeUchihaEntity.init();
 		});
 	}
 
@@ -56,5 +63,6 @@ public class BetterKatanasModEntities {
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(AKAME_BOSS.get(), AkameBossEntity.createAttributes().build());
 		event.put(YAMI_SUKEHIRO.get(), YamiSukehiroEntity.createAttributes().build());
+		event.put(SASUKE_UCHIHA.get(), SasukeUchihaEntity.createAttributes().build());
 	}
 }

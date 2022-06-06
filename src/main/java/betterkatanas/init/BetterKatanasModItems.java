@@ -16,6 +16,7 @@ import betterkatanas.item.YamiAdvitaSlashItem;
 import betterkatanas.item.WoodSwordItem;
 import betterkatanas.item.VoidKatanaItem;
 import betterkatanas.item.StoneKatanaItem;
+import betterkatanas.item.SnakeSwordItem;
 import betterkatanas.item.ObsidianKatanaItem;
 import betterkatanas.item.NetheriteKatanaItem;
 import betterkatanas.item.MurasameItem;
@@ -50,4 +51,8 @@ public class BetterKatanasModItems {
 	public static final RegistryObject<Item> YAMI_KATANA = REGISTRY.register("yami_katana", () -> new YamiKatanaItem());
 	public static final RegistryObject<Item> AMETHYST_KATANA = REGISTRY.register("amethyst_katana", () -> new AmethystKatanaItem());
 	public static final RegistryObject<Item> YAMI_ADVITA_SLASH = REGISTRY.register("yami_advita_slash", () -> new YamiAdvitaSlashItem());
+	public static final RegistryObject<Item> SASUKE_UCHIHA = REGISTRY.register("sasuke_uchiha_spawn_egg",
+			() -> new ForgeSpawnEggItem(BetterKatanasModEntities.SASUKE_UCHIHA, -13421773, -10092544,
+					new Item.Properties().tab(BetterKatanasModTabs.TAB_BETTER_KATANAS_MOBS)));
+	public static final RegistryObject<Item> SNAKE_SWORD = REGISTRY.register("snake_sword", () -> new SnakeSwordItem());
 }

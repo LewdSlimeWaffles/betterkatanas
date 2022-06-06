@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import betterkatanas.client.renderer.YamiSukehiroRenderer;
 import betterkatanas.client.renderer.YamiAdvitaSlashRenderer;
+import betterkatanas.client.renderer.SasukeUchihaRenderer;
 import betterkatanas.client.renderer.AkameBossRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -20,5 +21,6 @@ public class BetterKatanasModEntityRenderers {
 		event.registerEntityRenderer(BetterKatanasModEntities.AKAME_BOSS.get(), AkameBossRenderer::new);
 		event.registerEntityRenderer(BetterKatanasModEntities.YAMI_SUKEHIRO.get(), YamiSukehiroRenderer::new);
 		event.registerEntityRenderer(BetterKatanasModEntities.YAMI_ADVITA_SLASH.get(), YamiAdvitaSlashRenderer::new);
+		event.registerEntityRenderer(BetterKatanasModEntities.SASUKE_UCHIHA.get(), SasukeUchihaRenderer::new);
 	}
 }

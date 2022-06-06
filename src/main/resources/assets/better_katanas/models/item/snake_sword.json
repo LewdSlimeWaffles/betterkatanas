@@ -1,0 +1,7 @@
+{
+  "parent": "better_katanas:custom/snake_sword",
+  "textures": {
+    "0": "better_katanas:blocks/snake_sword",
+    "particle": "better_katanas:items/amethyst_katana"
+  }
+}
