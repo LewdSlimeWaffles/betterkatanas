@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "better_katanas:items/wood_katana"
+  }
+}

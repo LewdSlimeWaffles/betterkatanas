@@ -1,0 +1,17 @@
+{
+	"name": "Stone Katana",
+	"icon": "better_katanas:stone_katana",
+	"category": "better_katanas:vanilla_grade_blades",
+	"sortnum": "2",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "The Stone Katana is yet another weak grade of balde. though it is a upgrade from the wood katana, it still has minimal damage."
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "better_katanas:stone_katana_recipe",
+			"text": "uses a more refined form of stone. "
+		}
+	]
+}

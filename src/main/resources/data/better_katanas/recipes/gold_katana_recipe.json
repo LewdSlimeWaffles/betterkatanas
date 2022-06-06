@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  G",
+    " G ",
+    "S  "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "better_katanas:stone_katana"
+    }
+  },
+  "result": {
+    "item": "better_katanas:gold_katana",
+    "count": 1
+  }
+}

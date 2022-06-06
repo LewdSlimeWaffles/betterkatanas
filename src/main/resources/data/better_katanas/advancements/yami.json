@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "better_katanas:yami_katana"
+    },
+    "title": "Husbando Yami",
+    "description": "Make Yami your Husbando",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "better_katanas:first_waifu_husbando",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tame_animal",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player"
+        },
+        "entity": {
+          "type": "better_katanas:yami_sukehiro"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "better_katanas:obsidian_katana"
+    },
+    {
+      "item": "better_katanas:emerald_katana"
+    },
+    {
+      "item": "better_katanas:netherite_katana"
+    }
+  ],
+  "result": {
+    "item": "better_katanas:void_katana",
+    "count": 1
+  }
+}

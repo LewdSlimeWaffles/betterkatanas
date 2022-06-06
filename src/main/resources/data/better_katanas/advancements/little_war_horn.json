@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "better_katanas:murasame"
+    },
+    "title": {
+      "translate": "advancements.little_war_horn.title"
+    },
+    "description": {
+      "translate": "advancements.little_war_horn.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "little_war_horn": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "better_katanas:murasame_advancement"
+}

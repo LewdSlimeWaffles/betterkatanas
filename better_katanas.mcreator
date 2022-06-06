@@ -1,0 +1,788 @@
+{
+  "mod_elements": [
+    {
+      "name": "WoodSword",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_sword",
+      "path": "~/Sword/base Katanas"
+    },
+    {
+      "name": "StoneKatana",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_katana",
+      "path": "~/Sword/base Katanas"
+    },
+    {
+      "name": "IronKatana",
+      "type": "tool",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_katana",
+      "path": "~/Sword/base Katanas"
+    },
+    {
+      "name": "GoldKatana",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_katana",
+      "path": "~/Sword/base Katanas"
+    },
+    {
+      "name": "DiamondKatana",
+      "type": "tool",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_katana",
+      "path": "~/Sword/base Katanas"
+    },
+    {
+      "name": "NetheriteKatana",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_katana",
+      "path": "~/Sword/base Katanas"
+    },
+    {
+      "name": "ObsidianKatana",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_katana",
+      "path": "~/Sword/base Katanas"
+    },
+    {
+      "name": "EmeraldKatana",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_katana",
+      "path": "~/Sword/base Katanas"
+    },
+    {
+      "name": "VoidKatana",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_katana",
+      "path": "~/Sword/base Katanas"
+    },
+    {
+      "name": "KatanaCollection",
+      "type": "tab",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_collection"
+    },
+    {
+      "name": "WoodKatanaRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_katana_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "StoneKatanaRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_katana_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "IronKatanaRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_katana_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "DiamondKatanaRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_katana_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "NetheriteKatanaRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_katana_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "GoldKatanaRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_katana_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "EmeraldKatanaRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "emerald_katana_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "VoidKatanaRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_katana_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "YourFirstKatana",
+      "type": "achievement",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "your_first_katana",
+      "path": "~/Advancements/Base Katanas"
+    },
+    {
+      "name": "UpgradedBlade",
+      "type": "achievement",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "upgraded_blade",
+      "path": "~/Advancements/Base Katanas"
+    },
+    {
+      "name": "IsntItAnIronKatana",
+      "type": "achievement",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "isnt_it_an_iron_katana",
+      "path": "~/Advancements/Base Katanas"
+    },
+    {
+      "name": "DimaondCoveredBlade",
+      "type": "achievement",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dimaond_covered_blade",
+      "path": "~/Advancements/Base Katanas"
+    },
+    {
+      "name": "BladeOfDebris",
+      "type": "achievement",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blade_of_debris",
+      "path": "~/Advancements/Base Katanas"
+    },
+    {
+      "name": "ShiningBladeOfGold",
+      "type": "achievement",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shining_blade_of_gold",
+      "path": "~/Advancements/Base Katanas"
+    },
+    {
+      "name": "BladeOfMoney",
+      "type": "achievement",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blade_of_money",
+      "path": "~/Advancements/Base Katanas"
+    },
+    {
+      "name": "VoidBlade",
+      "type": "achievement",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "void_blade",
+      "path": "~/Advancements/Base Katanas"
+    },
+    {
+      "name": "WeaponSmith",
+      "type": "villagertrade",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weapon_smith",
+      "path": "~/Villager Trades"
+    },
+    {
+      "name": "ObbySword",
+      "type": "achievement",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obby_sword",
+      "path": "~/Advancements/Base Katanas"
+    },
+    {
+      "name": "ObsidianKatanaRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidian_katana_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "MurasameLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "murasame_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Katana Abilities"
+    },
+    {
+      "name": "MurasameRightclicked",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "murasame_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures/Katana Abilities"
+    },
+    {
+      "name": "Murasame",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "murasame",
+      "path": "~/Sword/Anime Collection"
+    },
+    {
+      "name": "AnimeKatanaCollection",
+      "type": "tab",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anime_katana_collection"
+    },
+    {
+      "name": "AnimeCollectionKatanas",
+      "type": "achievement",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anime_collection_katanas",
+      "path": "~/Advancements/Anime Collection"
+    },
+    {
+      "name": "MurasameAdvancement",
+      "type": "achievement",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "murasame_advancement",
+      "path": "~/Advancements/Anime Collection"
+    },
+    {
+      "name": "MurasameCurseKill",
+      "type": "achievement",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "murasame_curse_kill",
+      "path": "~/Advancements/Anime Collection"
+    },
+    {
+      "name": "LittleWarHorn",
+      "type": "achievement",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "little_war_horn",
+      "path": "~/Advancements/Anime Collection"
+    },
+    {
+      "name": "Dalwp",
+      "type": "loottable",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "dalwp",
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "AkameBoss",
+      "type": "livingentity",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "akame_boss",
+      "path": "~/Mobs"
+    },
+    {
+      "name": "RadialSlash",
+      "type": "enchantment",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radial_slash",
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "RadialSlashProcedure",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radial_slash_procedure",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Enchantment procedures"
+    },
+    {
+      "name": "BetterKatanasMobs",
+      "type": "tab",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "better_katanas_mobs"
+    },
+    {
+      "name": "AkameCastleOreRoomChest",
+      "type": "loottable",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "akame_castle_ore_room_chest",
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "Akamecastle",
+      "type": "structure",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "akamecastle",
+      "path": "~/Structures"
+    },
+    {
+      "name": "AkameLootTable",
+      "type": "loottable",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "akame_loot_table",
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "FirstWaifuHusbando",
+      "type": "achievement",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "first_waifu_husbando",
+      "path": "~/Advancements/Waifu and Husbando Collection"
+    },
+    {
+      "name": "Akame",
+      "type": "achievement",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "akame",
+      "path": "~/Advancements/Waifu and Husbando Collection"
+    },
+    {
+      "name": "Katanas",
+      "type": "tag",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katanas"
+    },
+    {
+      "name": "HeartForAdvancments",
+      "type": "item",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heart_for_advancments",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "YamiSukehiro",
+      "type": "livingentity",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yami_sukehiro",
+      "path": "~/Mobs"
+    },
+    {
+      "name": "YamiKatana",
+      "type": "tool",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yami_katana",
+      "path": "~/Sword/Anime Collection"
+    },
+    {
+      "name": "AmethystKatana",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_katana",
+      "path": "~/Sword/base Katanas"
+    },
+    {
+      "name": "AmethystKatanaRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_katana_recipe",
+      "path": "~/recipe"
+    },
+    {
+      "name": "AmethystBlade",
+      "type": "achievement",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amethyst_blade",
+      "path": "~/Advancements/Base Katanas"
+    },
+    {
+      "name": "Yami",
+      "type": "achievement",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "yami",
+      "path": "~/Advancements/Waifu and Husbando Collection"
+    },
+    {
+      "name": "YamiAdvitaSlash",
+      "type": "rangeditem",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yami_advita_slash",
+      "path": "~/Special Ability Stuff"
+    },
+    {
+      "name": "YamiKatanaRightclicked",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yami_katana_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Procedures/Katana Abilities"
+    },
+    {
+      "name": "YamiKatanaGet",
+      "type": "achievement",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yami_katana_get",
+      "path": "~/Advancements/Anime Collection"
+    },
+    {
+      "name": "AvidyaSlash",
+      "type": "achievement",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "avidya_slash",
+      "path": "~/Advancements/Anime Collection"
+    },
+    {
+      "name": "YamiSukehiroLootTable",
+      "type": "loottable",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yami_sukehiro_loot_table",
+      "path": "~/Loot Tables"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.little_war_horn.title": "Little War Horn",
+      "item.katana_collection.iron_katana": "Iron Katana",
+      "advancements.upgraded_blade.title": "Upgraded Blade",
+      "item.katana_collection.emerald_katana": "Emerald Katana",
+      "item.better_katanas.iron_katana": "Iron Katana",
+      "advancements.yami.title": "Yami",
+      "itemGroup.tabanime_katana_collection": "Anime Katana Collection",
+      "item.better_katanas.yami_sukehiro_spawn_egg": "Yami Sukehiro Spawn Egg",
+      "advancements.amethyst_blade.descr": "Make a Amethyst katana",
+      "advancements.upgraded_blade.descr": "Upgrade your katana",
+      "advancements.yami.descr": "Make Yami your husbando",
+      "advancements.avidya_slash.descr": "Use Dark Cloaked Avidya Slash",
+      "advancements.blade_of_money.title": "Blade Of Money",
+      "itemGroup.tabkatana_collection": "Katana Collection",
+      "advancements.akame.title": "Waifu Akame",
+      "item.better_katanas.heart_for_advancments": "Heart For Advancments",
+      "advancements.little_war_horn.descr": "Use Murasame\u0027s Little War Horn Ability",
+      "advancements.amethyst_blade.title": "Amethyst Blade",
+      "advancements.blade_of_money.descr": "Craft a blade of bling",
+      "item.better_katanas.netherite_katana": "Netherite Katana",
+      "item.katana_collection.diamond_katana": "Diamond Katana",
+      "advancements.first_waifu_husbando.title": "First Waifu / Husbando",
+      "advancements.shining_blade_of_gold.descr": "Golden Katana",
+      "item.katana_collection.obsidian_katana": "Obsidian Katana",
+      "item.katana_collection.gold_katana": "Gold Katana",
+      "item.better_katanas.obsidian_katana": "Obsidian Katana",
+      "advancements.dimaond_covered_blade.descr": "Upgarde to a Diamond Katana",
+      "advancements.your_first_katana.descr": "Craft Your First Katana",
+      "item.better_katanas.akame_boss_spawn_egg": "Akame Spawn Egg",
+      "item.better_katanas.gold_katana": "Gold Katana",
+      "item.better_katanas.yami_advita_slash": "Yami Advita Slash",
+      "advancements.obby_sword.title": "Obby Sword",
+      "advancements.yami_katana_get.title": "Dark Magic Katana",
+      "item.katana_collection.stone_katana": "Stone Katana",
+      "item.katana_collection.wood_sword": "Wood Katana",
+      "advancements.void_blade.title": "Void Blade",
+      "item.katana_collection.murasame": "Murasame",
+      "entity.better_katanas.akame_boss": "Akame",
+      "enchantment.better_katanas.radial_slash": "Radial Slash",
+      "item.better_katanas.wood_sword": "Wood Katana",
+      "item.better_katanas.emerald_katana": "Emerald Katana",
+      "advancements.blade_of_debris.title": "Blade Of Debris",
+      "itemGroup.tabbetter_katanas_mobs": "Better Katanas Mobs",
+      "advancements.murasame_advancement.descr": "Find Murasame",
+      "advancements.dimaond_covered_blade.title": "Diamond Covered Blade",
+      "advancements.murasame_advancement.title": "One-Cut Killer: Murasame",
+      "item.better_katanas.stone_katana": "Stone Katana",
+      "advancements.anime_collection_katanas.descr": "A Collection of katana\u0027s from Anime for you to find.",
+      "advancements.anime_collection_katanas.title": "Anime Collection Katanas",
+      "advancements.murasame_curse_kill.title": "Murasame Curse Kill",
+      "item.better_katanas.diamond_katana": "Diamond Katana",
+      "item.better_katanas.yami_katana": "Yami\u0027s Katana",
+      "item.better_katanas.amethyst_katana": "Amethyst Katana",
+      "advancements.isnt_it_an_iron_katana.title": "Isn\u0027t It Iron Katana",
+      "item.katana_collection.void_katana": "Void Katana",
+      "advancements.shining_blade_of_gold.title": "Shining Blade Of Gold",
+      "advancements.isnt_it_an_iron_katana.descr": "Upgrade to an iron katana",
+      "advancements.blade_of_debris.descr": "The Strongest Blade?",
+      "advancements.obby_sword.descr": "Obsidian katana",
+      "item.better_katanas.void_katana": "Void Katana",
+      "advancements.avidya_slash.title": "Dark Cloaked Avidya Slash",
+      "advancements.first_waifu_husbando.descr": "Befriend your First Waifu or Husbando",
+      "advancements.your_first_katana.title": "Your First Katana",
+      "advancements.murasame_curse_kill.descr": "Get a kill with Murasame\u0027s Curse",
+      "advancements.akame.descr": "Make Akame your Waifu",
+      "item.katana_collection.netherite_katana": "Netherite Katana",
+      "advancements.void_blade.descr": "Strongest Blade",
+      "entity.better_katanas.yami_sukehiro": "Yami Sukehiro",
+      "item.better_katanas.murasame": "Murasame",
+      "advancements.yami_katana_get.descr": "Aquire Yami Sukehiro\u0027s Katana"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Sword",
+        "children": [
+          {
+            "name": "base Katanas",
+            "children": []
+          },
+          {
+            "name": "Anime Collection",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "recipe",
+        "children": []
+      },
+      {
+        "name": "Villager Trades",
+        "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": [
+          {
+            "name": "Base Katanas",
+            "children": []
+          },
+          {
+            "name": "Anime Collection",
+            "children": []
+          },
+          {
+            "name": "Waifu and Husbando Collection",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Procedures",
+        "children": [
+          {
+            "name": "Enchantment procedures",
+            "children": []
+          },
+          {
+            "name": "Katana Abilities",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Loot Tables",
+        "children": []
+      },
+      {
+        "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "Enchantments",
+        "children": []
+      },
+      {
+        "name": "Boss Spawn Blocks",
+        "children": []
+      },
+      {
+        "name": "Structures",
+        "children": []
+      },
+      {
+        "name": "testing things",
+        "children": []
+      },
+      {
+        "name": "Special Ability Stuff",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "better_katanas",
+    "modName": "Better Katanas",
+    "version": "1.1.0",
+    "description": "Adds Many new Swords (Mostly Katanas)",
+    "author": "The Lewd Slime Waffles",
+    "websiteURL": "https://mcreator.net",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "just_enough_items-1.18.2",
+      "patchouli-1.18.2"
+    ],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Made using Mcreator",
+    "modElementsPackage": "betterkatanas",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

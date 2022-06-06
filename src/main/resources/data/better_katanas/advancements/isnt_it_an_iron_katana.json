@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "better_katanas:iron_katana"
+    },
+    "title": {
+      "translate": "advancements.isnt_it_an_iron_katana.title"
+    },
+    "description": {
+      "translate": "advancements.isnt_it_an_iron_katana.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "isnt_it_an_iron_katana": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "better_katanas:iron_katana"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "better_katanas:upgraded_blade"
+}

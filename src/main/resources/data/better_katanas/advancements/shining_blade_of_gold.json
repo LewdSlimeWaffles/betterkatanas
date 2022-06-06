@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "better_katanas:gold_katana"
+    },
+    "title": {
+      "translate": "advancements.shining_blade_of_gold.title"
+    },
+    "description": {
+      "translate": "advancements.shining_blade_of_gold.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "shining_blade_of_gold": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "better_katanas:gold_katana"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "better_katanas:upgraded_blade"
+}

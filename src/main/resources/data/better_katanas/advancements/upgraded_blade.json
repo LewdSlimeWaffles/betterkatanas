@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "better_katanas:stone_katana"
+    },
+    "title": {
+      "translate": "advancements.upgraded_blade.title"
+    },
+    "description": {
+      "translate": "advancements.upgraded_blade.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "upgraded_blade": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "better_katanas:stone_katana"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "better_katanas:iron_katana_recipe"
+    ]
+  },
+  "parent": "better_katanas:your_first_katana"
+}

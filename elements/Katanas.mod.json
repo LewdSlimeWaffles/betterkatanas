@@ -1,0 +1,50 @@
+{
+  "_fv": 28,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:WoodSword"
+      },
+      {
+        "value": "CUSTOM:StoneKatana"
+      },
+      {
+        "value": "CUSTOM:IronKatana"
+      },
+      {
+        "value": "CUSTOM:GoldKatana"
+      },
+      {
+        "value": "CUSTOM:DiamondKatana"
+      },
+      {
+        "value": "CUSTOM:NetheriteKatana"
+      },
+      {
+        "value": "CUSTOM:ObsidianKatana"
+      },
+      {
+        "value": "CUSTOM:EmeraldKatana"
+      },
+      {
+        "value": "CUSTOM:VoidKatana"
+      },
+      {
+        "value": "CUSTOM:Murasame"
+      },
+      {
+        "value": "CUSTOM:YamiKatana"
+      },
+      {
+        "value": "CUSTOM:AmethystKatana"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "katanas",
+    "namespace": "mod"
+  }
+}

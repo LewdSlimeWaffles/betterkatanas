@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  S",
+    " S ",
+    "W  "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:smooth_stone"
+    },
+    "W": {
+      "item": "better_katanas:wood_sword"
+    }
+  },
+  "result": {
+    "item": "better_katanas:stone_katana",
+    "count": 1
+  }
+}

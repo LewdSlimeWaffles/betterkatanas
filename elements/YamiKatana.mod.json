@@ -1,0 +1,32 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "yami_katana",
+    "customModelName": "Normal",
+    "name": "Yami's Katana",
+    "specialInfo": [
+      "Blade Wielded By §8Yami Sukehiro"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:AnimeKatanaCollection"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.5,
+    "enchantability": 30,
+    "damageVsEntity": 16.0,
+    "usageCount": 6400,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "YamiKatanaRightclicked"
+    }
+  }
+}

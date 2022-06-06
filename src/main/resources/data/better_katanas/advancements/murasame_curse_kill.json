@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "better_katanas:murasame"
+    },
+    "title": {
+      "translate": "advancements.murasame_curse_kill.title"
+    },
+    "description": {
+      "translate": "advancements.murasame_curse_kill.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "murasame_curse_kill": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "better_katanas:murasame_advancement"
+}

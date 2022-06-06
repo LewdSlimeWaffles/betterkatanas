@@ -1,0 +1,35 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "murasame",
+    "customModelName": "Normal",
+    "name": "Murasame",
+    "specialInfo": [
+      "Blade Wielded By §4Akame"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:AnimeKatanaCollection"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.5,
+    "enchantability": 30,
+    "damageVsEntity": 12.0,
+    "usageCount": 6400,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "MurasameRightclicked"
+    },
+    "onEntityHitWith": {
+      "name": "MurasameLivingEntityIsHitWithTool"
+    }
+  }
+}

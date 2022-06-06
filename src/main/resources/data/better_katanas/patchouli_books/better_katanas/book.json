@@ -1,0 +1,6 @@
+{
+    "name": "Book of Katanas",
+    "landing_text": "Welcome to the book of all katanas in the known world",
+    "book_texture": "patchouli:textures/gui/book_purple.png",
+    "version": 1
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "better_katanas:murasame"
+    },
+    "title": {
+      "translate": "advancements.murasame_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.murasame_advancement.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "murasame_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "better_katanas:murasame"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "better_katanas:anime_collection_katanas"
+}

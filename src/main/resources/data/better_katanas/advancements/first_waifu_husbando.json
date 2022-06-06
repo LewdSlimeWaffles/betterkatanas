@@ -1,0 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "item": "better_katanas:heart_for_advancments"
+        },
+        "title": "First Waifu / Husbando",
+        "description": "Get your first Waifu or Husbando",
+        "background": "minecraft:textures/block/stone.png",
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "yami_tame": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "entity": {
+                    "type": "better_katanas:yami_sukehiro"
+                }
+            }
+        },
+        "akame_tame": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "player": {
+                    "type": "minecraft:player"
+                },
+                "entity": {
+                    "type": "better_katanas:akame_boss"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "yami_tame",
+            "akame_tame"
+        ]
+    ]
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "better_katanas:obsidian_katana"
+    },
+    "title": {
+      "translate": "advancements.obby_sword.title"
+    },
+    "description": {
+      "translate": "advancements.obby_sword.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "obby_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "better_katanas:obsidian_katana"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "better_katanas:isnt_it_an_iron_katana"
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "better_katanas:murasame"
+    },
+    "title": {
+      "translate": "advancements.avidya_slash.title"
+    },
+    "description": {
+      "translate": "advancements.avidya_slash.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "avidya_slash": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "better_katanas:yami_katana_get"
+}

@@ -1,0 +1,17 @@
+{
+	"name": "Wood Katana",
+	"icon": "better_katanas:wood_sword",
+	"category": "better_katanas:vanilla_grade_blades",
+	"sortnum": "1",
+	"pages": [
+		{
+			"type": "patchouli:text",
+			"text": "The wooden katana is the most basic of blade. very weak with low durability"
+		},
+		{
+			"type": "patchouli:crafting",
+			"recipe": "better_katanas:wood_katana_recipe",
+			"text": "Super cheap to craft using the most basic of materials."
+		}
+	]
+}

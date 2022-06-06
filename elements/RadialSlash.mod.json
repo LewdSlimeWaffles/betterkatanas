@@ -1,0 +1,50 @@
+{
+  "_fv": 28,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Radial Slash",
+    "type": "WEAPON",
+    "rarity": "RARE",
+    "minLevel": 1,
+    "maxLevel": 3,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:WoodSword"
+      },
+      {
+        "value": "CUSTOM:StoneKatana"
+      },
+      {
+        "value": "CUSTOM:IronKatana"
+      },
+      {
+        "value": "CUSTOM:GoldKatana"
+      },
+      {
+        "value": "CUSTOM:DiamondKatana"
+      },
+      {
+        "value": "CUSTOM:NetheriteKatana"
+      },
+      {
+        "value": "CUSTOM:ObsidianKatana"
+      },
+      {
+        "value": "CUSTOM:EmeraldKatana"
+      },
+      {
+        "value": "CUSTOM:VoidKatana"
+      },
+      {
+        "value": "CUSTOM:AmethystKatana"
+      }
+    ],
+    "isTreasureEnchantment": false,
+    "isCurse": false,
+    "isAllowedOnBooks": true,
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": true
+  }
+}
