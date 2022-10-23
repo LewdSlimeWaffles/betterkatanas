@@ -9,10 +9,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.BlockItem;
 
 import betterkatanas.item.YamiKatanaItem;
 import betterkatanas.item.YamiAdvitaSlashItem;
@@ -58,9 +55,4 @@ public class BetterKatanasModItems {
 			() -> new ForgeSpawnEggItem(BetterKatanasModEntities.SASUKE_UCHIHA, -13421773, -10092544,
 					new Item.Properties().tab(BetterKatanasModTabs.TAB_BETTER_KATANAS_MOBS)));
 	public static final RegistryObject<Item> SNAKE_SWORD = REGISTRY.register("snake_sword", () -> new SnakeSwordItem());
-	public static final RegistryObject<Item> TESTING = block(BetterKatanasModBlocks.TESTING, BetterKatanasModTabs.TAB_KATANA_COLLECTION);
-
-	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
-		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
-	}
 }

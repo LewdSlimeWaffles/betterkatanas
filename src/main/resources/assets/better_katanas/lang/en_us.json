@@ -25,7 +25,9 @@
   "advancements.shining_blade_of_gold.descr": "Golden Katana",
   "item.katana_collection.obsidian_katana": "Obsidian Katana",
   "item.katana_collection.gold_katana": "Gold Katana",
+  "advancements.sasuke.descr": "Make Akame your Waifu",
   "item.better_katanas.obsidian_katana": "Obsidian Katana",
+  "advancements.snake_sword_advancment.title": "Snake Sword Advancment",
   "advancements.dimaond_covered_blade.descr": "Upgarde to a Diamond Katana",
   "advancements.your_first_katana.descr": "Craft Your First Katana",
   "item.better_katanas.akame_boss_spawn_egg": "Akame Spawn Egg",
@@ -48,6 +50,7 @@
   "advancements.dimaond_covered_blade.title": "Diamond Covered Blade",
   "advancements.murasame_advancement.title": "One-Cut Killer: Murasame",
   "item.better_katanas.stone_katana": "Stone Katana",
+  "advancements.sasuke.title": "Waifu Akame",
   "advancements.anime_collection_katanas.descr": "A Collection of katana\u0027s from Anime for you to find.",
   "advancements.anime_collection_katanas.title": "Anime Collection Katanas",
   "advancements.murasame_curse_kill.title": "Murasame Curse Kill",
@@ -57,7 +60,6 @@
   "advancements.isnt_it_an_iron_katana.title": "Isn\u0027t It Iron Katana",
   "item.katana_collection.void_katana": "Void Katana",
   "gamerule.waifuspawn": "Spawn Waifu\u0027s",
-  "block.better_katanas.testing": "Testing",
   "advancements.shining_blade_of_gold.title": "Shining Blade Of Gold",
   "advancements.isnt_it_an_iron_katana.descr": "Upgrade to an iron katana",
   "advancements.blade_of_debris.descr": "The Strongest Blade?",
@@ -76,5 +78,6 @@
   "advancements.void_blade.descr": "Strongest Blade",
   "entity.better_katanas.yami_sukehiro": "Yami Sukehiro",
   "item.better_katanas.murasame": "Murasame",
+  "advancements.snake_sword_advancment.descr": "Find the Snake Sword",
   "advancements.yami_katana_get.descr": "Aquire Yami Sukehiro\u0027s Katana"
 }

@@ -59,7 +59,7 @@ public class SasukeUchihaEntity extends TamableAnimal {
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
 		event.getSpawns().getSpawner(MobCategory.MONSTER)
-				.add(new MobSpawnSettings.SpawnerData(BetterKatanasModEntities.SASUKE_UCHIHA.get(), 20, 1, 1));
+				.add(new MobSpawnSettings.SpawnerData(BetterKatanasModEntities.SASUKE_UCHIHA.get(), 5, 1, 1));
 	}
 
 	public SasukeUchihaEntity(PlayMessages.SpawnEntity packet, Level world) {

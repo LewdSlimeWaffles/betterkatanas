@@ -1,17 +1,18 @@
 {
   "replace": false,
   "values": [
-    "better_katanas:netherite_katana",
-    "better_katanas:emerald_katana",
     "better_katanas:stone_katana",
     "better_katanas:gold_katana",
-    "better_katanas:wood_sword",
-    "better_katanas:diamond_katana",
+    "better_katanas:snake_sword",
     "better_katanas:obsidian_katana",
-    "better_katanas:void_katana",
-    "better_katanas:iron_katana",
     "better_katanas:yami_katana",
     "better_katanas:murasame",
-    "better_katanas:amethyst_katana"
+    "better_katanas:amethyst_katana",
+    "better_katanas:netherite_katana",
+    "better_katanas:emerald_katana",
+    "better_katanas:wood_sword",
+    "better_katanas:diamond_katana",
+    "better_katanas:void_katana",
+    "better_katanas:iron_katana"
   ]
 }

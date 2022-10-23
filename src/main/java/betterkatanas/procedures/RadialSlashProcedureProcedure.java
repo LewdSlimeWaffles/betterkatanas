@@ -44,18 +44,20 @@ public class RadialSlashProcedureProcedure {
 		double loop = 0;
 		double zRadius = 0;
 		double particleAmount = 0;
+		double enchant_lvl = 0;
 		loop = 0;
 		particleAmount = 32;
-		if (EnchantmentHelper.getItemEnchantmentLevel(BetterKatanasModEnchantments.RADIAL_SLASH.get(),
-				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) == 1) {
+		enchant_lvl = EnchantmentHelper.getItemEnchantmentLevel(BetterKatanasModEnchantments.RADIAL_SLASH.get(),
+				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY));
+		if (enchant_lvl == 1) {
 			xRadius = 4;
 			zRadius = 4;
 			{
 				final Vec3 _center = new Vec3(x, y, z);
-				List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(4 / 2d), e -> true).stream()
+				List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(10 / 2d), e -> true).stream()
 						.sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).collect(Collectors.toList());
 				for (Entity entityiterator : _entfound) {
-					entityiterator.hurt(DamageSource.GENERIC, 10);
+					entityiterator.hurt(DamageSource.GENERIC, (float) (enchant_lvl * 3));
 				}
 			}
 			while (loop < particleAmount) {
@@ -66,16 +68,15 @@ public class RadialSlashProcedureProcedure {
 			if (entity instanceof Player _player)
 				_player.getCooldowns().addCooldown((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem(),
 						100);
-		} else if (EnchantmentHelper.getItemEnchantmentLevel(BetterKatanasModEnchantments.RADIAL_SLASH.get(),
-				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) == 2) {
+		} else if (enchant_lvl == 2) {
 			xRadius = 6;
 			zRadius = 6;
 			{
 				final Vec3 _center = new Vec3(x, y, z);
-				List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(6 / 2d), e -> true).stream()
+				List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(14 / 2d), e -> true).stream()
 						.sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).collect(Collectors.toList());
 				for (Entity entityiterator : _entfound) {
-					entityiterator.hurt(DamageSource.GENERIC, 12);
+					entityiterator.hurt(DamageSource.GENERIC, (float) (enchant_lvl * 3));
 				}
 			}
 			while (loop < particleAmount) {
@@ -86,16 +87,15 @@ public class RadialSlashProcedureProcedure {
 			if (entity instanceof Player _player)
 				_player.getCooldowns().addCooldown((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem(),
 						80);
-		} else if (EnchantmentHelper.getItemEnchantmentLevel(BetterKatanasModEnchantments.RADIAL_SLASH.get(),
-				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) == 3) {
+		} else if (enchant_lvl >= 3) {
 			xRadius = 8;
 			zRadius = 8;
 			{
 				final Vec3 _center = new Vec3(x, y, z);
-				List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(8 / 2d), e -> true).stream()
+				List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(18 / 2d), e -> true).stream()
 						.sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center))).collect(Collectors.toList());
 				for (Entity entityiterator : _entfound) {
-					entityiterator.hurt(DamageSource.GENERIC, 14);
+					entityiterator.hurt(DamageSource.GENERIC, (float) (enchant_lvl * 3));
 				}
 			}
 			while (loop < particleAmount) {

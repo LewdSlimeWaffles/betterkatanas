@@ -437,15 +437,6 @@
       "path": "~/Loot Tables"
     },
     {
-      "name": "Akamecastle",
-      "type": "structure",
-      "sortid": 45,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "akamecastle",
-      "path": "~/Structures"
-    },
-    {
       "name": "AkameLootTable",
       "type": "loottable",
       "sortid": 47,
@@ -636,6 +627,18 @@
             "type": "itemstack"
           },
           {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
             "name": "world",
             "type": "world"
           }
@@ -666,8 +669,8 @@
             "type": "entity"
           },
           {
-            "name": "itemstack",
-            "type": "itemstack"
+            "name": "sourceentity",
+            "type": "entity"
           }
         ]
       },
@@ -711,14 +714,6 @@
       "path": "~/Procedures/Katana Abilities"
     },
     {
-      "name": "Testing",
-      "type": "block",
-      "sortid": 76,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "testing"
-    },
-    {
       "name": "LightningBlade",
       "type": "enchantment",
       "sortid": 77,
@@ -738,6 +733,10 @@
         "dependencies": [
           {
             "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
             "type": "entity"
           }
         ]
@@ -783,7 +782,25 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sasukeloottable",
-      "path": "~/Mobs"
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "SnakeSwordAdvancment",
+      "type": "achievement",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snake_sword_advancment",
+      "path": "~/Advancements/Anime Collection"
+    },
+    {
+      "name": "Sasuke",
+      "type": "achievement",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "sasuke",
+      "path": "~/Advancements/Waifu and Husbando Collection"
     }
   ],
   "variable_elements": [],
@@ -816,7 +833,9 @@
       "advancements.shining_blade_of_gold.descr": "Golden Katana",
       "item.katana_collection.obsidian_katana": "Obsidian Katana",
       "item.katana_collection.gold_katana": "Gold Katana",
+      "advancements.sasuke.descr": "Make Akame your Waifu",
       "item.better_katanas.obsidian_katana": "Obsidian Katana",
+      "advancements.snake_sword_advancment.title": "Snake Sword Advancment",
       "advancements.dimaond_covered_blade.descr": "Upgarde to a Diamond Katana",
       "advancements.your_first_katana.descr": "Craft Your First Katana",
       "item.better_katanas.akame_boss_spawn_egg": "Akame Spawn Egg",
@@ -839,6 +858,7 @@
       "advancements.dimaond_covered_blade.title": "Diamond Covered Blade",
       "advancements.murasame_advancement.title": "One-Cut Killer: Murasame",
       "item.better_katanas.stone_katana": "Stone Katana",
+      "advancements.sasuke.title": "Waifu Akame",
       "advancements.anime_collection_katanas.descr": "A Collection of katana\u0027s from Anime for you to find.",
       "advancements.anime_collection_katanas.title": "Anime Collection Katanas",
       "advancements.murasame_curse_kill.title": "Murasame Curse Kill",
@@ -848,7 +868,6 @@
       "advancements.isnt_it_an_iron_katana.title": "Isn\u0027t It Iron Katana",
       "item.katana_collection.void_katana": "Void Katana",
       "gamerule.waifuspawn": "Spawn Waifu\u0027s",
-      "block.better_katanas.testing": "Testing",
       "advancements.shining_blade_of_gold.title": "Shining Blade Of Gold",
       "advancements.isnt_it_an_iron_katana.descr": "Upgrade to an iron katana",
       "advancements.blade_of_debris.descr": "The Strongest Blade?",
@@ -867,6 +886,7 @@
       "advancements.void_blade.descr": "Strongest Blade",
       "entity.better_katanas.yami_sukehiro": "Yami Sukehiro",
       "item.better_katanas.murasame": "Murasame",
+      "advancements.snake_sword_advancment.descr": "Find the Snake Sword",
       "advancements.yami_katana_get.descr": "Aquire Yami Sukehiro\u0027s Katana"
     }
   },
@@ -957,8 +977,9 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
-      "just_enough_items-1.18.2",
-      "patchouli-1.18.2"
+      "curios_api",
+      "patchouli",
+      "jei"
     ],
     "currentGenerator": "forge-1.18.2",
     "credits": "Made using Mcreator",

@@ -32,7 +32,7 @@ public class SnakeSwordItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 14f;
+				return 10f;
 			}
 
 			public int getLevel() {
@@ -52,7 +52,7 @@ public class SnakeSwordItem extends SwordItem {
 	@Override
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
-		SnakeSwordRightclickedProcedure.execute(world, entity, ar.getObject());
+		SnakeSwordRightclickedProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity, ar.getObject());
 		return ar;
 	}
 

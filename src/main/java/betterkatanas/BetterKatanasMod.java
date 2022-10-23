@@ -32,10 +32,8 @@ import java.util.function.BiConsumer;
 
 import betterkatanas.init.BetterKatanasModTabs;
 import betterkatanas.init.BetterKatanasModItems;
-import betterkatanas.init.BetterKatanasModFeatures;
 import betterkatanas.init.BetterKatanasModEntities;
 import betterkatanas.init.BetterKatanasModEnchantments;
-import betterkatanas.init.BetterKatanasModBlocks;
 
 @Mod("better_katanas")
 public class BetterKatanasMod {
@@ -49,11 +47,9 @@ public class BetterKatanasMod {
 	public BetterKatanasMod() {
 		BetterKatanasModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-		BetterKatanasModBlocks.REGISTRY.register(bus);
+
 		BetterKatanasModItems.REGISTRY.register(bus);
 		BetterKatanasModEntities.REGISTRY.register(bus);
-
-		BetterKatanasModFeatures.REGISTRY.register(bus);
 
 		BetterKatanasModEnchantments.REGISTRY.register(bus);
 
