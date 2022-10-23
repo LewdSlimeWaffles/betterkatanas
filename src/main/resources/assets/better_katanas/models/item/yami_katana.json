@@ -1,6 +1,7 @@
 {
-  "parent": "item/handheld",
+  "parent": "better_katanas:custom/yami_katana",
   "textures": {
-    "layer0": "better_katanas:items/yami_katana"
+    "0": "better_katanas:blocks/yami_katana_model",
+    "particle": "better_katanas:items/yami_katana"
   }
 }

@@ -19,6 +19,6 @@ public class AkameBossRenderer extends HumanoidMobRenderer<AkameBossEntity, Huma
 
 	@Override
 	public ResourceLocation getTextureLocation(AkameBossEntity entity) {
-		return new ResourceLocation("better_katanas:textures/akame_ga_kill.png");
+		return new ResourceLocation("better_katanas:textures/entities/akame_ga_kill.png");
 	}
 }

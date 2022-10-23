@@ -17,7 +17,7 @@ import betterkatanas.entity.YamiAdvitaSlashEntity;
 import betterkatanas.client.model.Modelcustom_model;
 
 public class YamiAdvitaSlashRenderer extends EntityRenderer<YamiAdvitaSlashEntity> {
-	private static final ResourceLocation texture = new ResourceLocation("better_katanas:textures/advita_slash_final.png");
+	private static final ResourceLocation texture = new ResourceLocation("better_katanas:textures/entities/advita_slash_final.png");
 	private final Modelcustom_model model;
 
 	public YamiAdvitaSlashRenderer(EntityRendererProvider.Context context) {

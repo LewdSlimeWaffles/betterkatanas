@@ -1,0 +1,23 @@
+{
+  "_fv": 33,
+  "_type": "enchantment",
+  "definition": {
+    "name": "Lightning Blade",
+    "type": "WEAPON",
+    "rarity": "VERY_RARE",
+    "minLevel": 1,
+    "maxLevel": 1,
+    "damageModifier": 0,
+    "compatibleEnchantments": [],
+    "compatibleItems": [
+      {
+        "value": "CUSTOM:SnakeSword"
+      }
+    ],
+    "isTreasureEnchantment": true,
+    "isCurse": false,
+    "isAllowedOnBooks": false,
+    "canGenerateInLootTables": false,
+    "canVillagerTrade": false
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "_fv": 28,
+  "_fv": 33,
   "_type": "livingentity",
   "definition": {
     "mobName": "Sasuke Uchiha",
@@ -27,7 +27,7 @@
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
     "equipmentMainHand": {
-      "value": ""
+      "value": "CUSTOM:SnakeSword"
     },
     "equipmentOffHand": {
       "value": ""
@@ -52,6 +52,7 @@
     "movementSpeed": 0.3,
     "armorBaseValue": 0.0,
     "trackingRange": 64,
+    "followRange": 16,
     "health": 300,
     "xpAmount": 50,
     "waterMob": false,

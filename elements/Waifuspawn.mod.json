@@ -1,0 +1,12 @@
+{
+  "_fv": 33,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Spawn Waifu's",
+    "description": "Disable to stop Waifu spawns",
+    "category": "SPAWNING",
+    "defaultValueLogic": true,
+    "defaultValueNumber": 0
+  }
+}

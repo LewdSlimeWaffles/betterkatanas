@@ -19,6 +19,6 @@ public class YamiSukehiroRenderer extends HumanoidMobRenderer<YamiSukehiroEntity
 
 	@Override
 	public ResourceLocation getTextureLocation(YamiSukehiroEntity entity) {
-		return new ResourceLocation("better_katanas:textures/yami_sukehiro.png");
+		return new ResourceLocation("better_katanas:textures/entities/yami_sukehiro.png");
 	}
 }

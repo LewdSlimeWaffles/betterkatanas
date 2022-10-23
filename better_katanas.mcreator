@@ -641,7 +641,7 @@
           }
         ]
       },
-      "path": "~/Sword/Anime Collection"
+      "path": "~/Procedures/Katana Abilities"
     },
     {
       "name": "TrueSharpness",
@@ -672,6 +672,118 @@
         ]
       },
       "path": "~/Procedures/Enchantment procedures"
+    },
+    {
+      "name": "SnakeSwordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snake_sword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures/Katana Abilities"
+    },
+    {
+      "name": "Testing",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "testing"
+    },
+    {
+      "name": "LightningBlade",
+      "type": "enchantment",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_blade",
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "LightningBladeEnchant",
+      "type": "procedure",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_blade_enchant",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Enchantment procedures"
+    },
+    {
+      "name": "Waifuspawn",
+      "type": "gamerule",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waifuspawn",
+      "metadata": {
+        "type": "logic"
+      }
+    },
+    {
+      "name": "Waifuspawngamerule",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waifuspawngamerule",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Sasukeloottable",
+      "type": "loottable",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasukeloottable",
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [],
@@ -681,9 +793,10 @@
       "advancements.little_war_horn.title": "Little War Horn",
       "item.katana_collection.iron_katana": "Iron Katana",
       "advancements.upgraded_blade.title": "Upgraded Blade",
-      "item.better_katanas.iron_katana": "Iron Katana",
       "item.katana_collection.emerald_katana": "Emerald Katana",
+      "item.better_katanas.iron_katana": "Iron Katana",
       "advancements.yami.title": "Yami",
+      "enchantment.better_katanas.lightning_blade": "Lightning Blade",
       "itemGroup.tabanime_katana_collection": "Anime Katana Collection",
       "item.better_katanas.yami_sukehiro_spawn_egg": "Yami Sukehiro Spawn Egg",
       "advancements.amethyst_blade.descr": "Make a Amethyst katana",
@@ -734,12 +847,15 @@
       "item.better_katanas.amethyst_katana": "Amethyst Katana",
       "advancements.isnt_it_an_iron_katana.title": "Isn\u0027t It Iron Katana",
       "item.katana_collection.void_katana": "Void Katana",
+      "gamerule.waifuspawn": "Spawn Waifu\u0027s",
+      "block.better_katanas.testing": "Testing",
       "advancements.shining_blade_of_gold.title": "Shining Blade Of Gold",
       "advancements.isnt_it_an_iron_katana.descr": "Upgrade to an iron katana",
       "advancements.blade_of_debris.descr": "The Strongest Blade?",
       "advancements.obby_sword.descr": "Obsidian katana",
       "item.better_katanas.void_katana": "Void Katana",
       "advancements.avidya_slash.title": "Dark Cloaked Avidya Slash",
+      "gamerule.waifuspawn.description": "Disable to stop Waifu spawns",
       "advancements.first_waifu_husbando.descr": "Befriend your First Waifu or Husbando",
       "advancements.your_first_katana.title": "Your First Katana",
       "item.better_katanas.snake_sword": "Sasuke\u0027s Snake Sword",
@@ -833,7 +949,7 @@
     "description": "Adds Many new Swords (Mostly Katanas)",
     "author": "The Lewd Slime Waffles",
     "websiteURL": "https://mcreator.net",
-    "license": "All Rights Reserved",
+    "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "logo",
@@ -849,5 +965,5 @@
     "modElementsPackage": "betterkatanas",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200120510
+  "mcreatorVersion": 202200234517
 }

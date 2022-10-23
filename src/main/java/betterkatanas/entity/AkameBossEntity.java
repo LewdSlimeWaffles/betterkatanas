@@ -194,6 +194,7 @@ public class AkameBossEntity extends TamableAnimal {
 		builder = builder.add(Attributes.MAX_HEALTH, 300);
 		builder = builder.add(Attributes.ARMOR, 0.4);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
+		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
 		builder = builder.add(Attributes.KNOCKBACK_RESISTANCE, 1);
 		return builder;
 	}

@@ -1,5 +1,5 @@
 {
-  "_fv": 28,
+  "_fv": 33,
   "_type": "enchantment",
   "definition": {
     "name": "§6True Sharpness",
@@ -13,7 +13,7 @@
     "isTreasureEnchantment": true,
     "isCurse": false,
     "isAllowedOnBooks": true,
-    "canGenerateInLootTables": false,
-    "canVillagerTrade": true
+    "canGenerateInLootTables": true,
+    "canVillagerTrade": false
   }
 }

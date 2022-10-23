@@ -36,6 +36,7 @@ import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.damagesource.DamageSource;
@@ -50,6 +51,7 @@ import net.minecraft.network.chat.TextComponent;
 
 import java.util.List;
 
+import betterkatanas.init.BetterKatanasModItems;
 import betterkatanas.init.BetterKatanasModEntities;
 
 @Mod.EventBusSubscriber
@@ -70,6 +72,7 @@ public class SasukeUchihaEntity extends TamableAnimal {
 		setNoAi(false);
 		setCustomName(new TextComponent("Sasuke Uchiha"));
 		setCustomNameVisible(true);
+		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(BetterKatanasModItems.SNAKE_SWORD.get()));
 	}
 
 	@Override
@@ -189,6 +192,7 @@ public class SasukeUchihaEntity extends TamableAnimal {
 		builder = builder.add(Attributes.MAX_HEALTH, 300);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
+		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
 		return builder;
 	}
 }

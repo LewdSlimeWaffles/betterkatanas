@@ -21,7 +21,7 @@ public class TrueSharpnessEnchantment extends Enchantment {
 	}
 
 	@Override
-	public boolean isDiscoverable() {
+	public boolean isTradeable() {
 		return false;
 	}
 }

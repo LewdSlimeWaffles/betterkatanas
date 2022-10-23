@@ -1,8 +1,10 @@
 package betterkatanas.procedures;
 
+import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.projectile.Projectile;
+import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.entity.player.Player;
-import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
@@ -12,14 +14,33 @@ import net.minecraft.advancements.Advancement;
 
 import java.util.Iterator;
 
+import betterkatanas.init.BetterKatanasModEntities;
+
 import betterkatanas.entity.YamiAdvitaSlashEntity;
 
 public class YamiKatanaRightclickedProcedure {
 	public static void execute(Entity entity, ItemStack itemstack) {
 		if (entity == null)
 			return;
-		if (entity instanceof LivingEntity _ent_sa && !_ent_sa.level.isClientSide()) {
-			YamiAdvitaSlashEntity.shoot(_ent_sa.level, _ent_sa, _ent_sa.level.getRandom(), 1, 5, 5);
+		{
+			Entity _shootFrom = entity;
+			Level projectileLevel = _shootFrom.level;
+			if (!projectileLevel.isClientSide()) {
+				Projectile _entityToSpawn = new Object() {
+					public Projectile getArrow(Level level, Entity shooter, float damage, int knockback, byte piercing) {
+						AbstractArrow entityToSpawn = new YamiAdvitaSlashEntity(BetterKatanasModEntities.YAMI_ADVITA_SLASH.get(), level);
+						entityToSpawn.setOwner(shooter);
+						entityToSpawn.setBaseDamage(damage);
+						entityToSpawn.setKnockback(knockback);
+						entityToSpawn.setSilent(true);
+						entityToSpawn.setPierceLevel(piercing);
+						return entityToSpawn;
+					}
+				}.getArrow(projectileLevel, entity, 5, 5, (byte) 10);
+				_entityToSpawn.setPos(_shootFrom.getX(), _shootFrom.getEyeY() - 0.1, _shootFrom.getZ());
+				_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, 5, 0);
+				projectileLevel.addFreshEntity(_entityToSpawn);
+			}
 		}
 		if (entity instanceof Player _player && !_player.level.isClientSide())
 			_player.displayClientMessage(new TextComponent("Dark Cloaked Avidya Slash"), (true));

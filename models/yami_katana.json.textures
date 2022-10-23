@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "yami_katana_model"
+      },
+      "name": "default"
+    }
+  }
+}

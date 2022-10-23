@@ -19,6 +19,6 @@ public class SasukeUchihaRenderer extends HumanoidMobRenderer<SasukeUchihaEntity
 
 	@Override
 	public ResourceLocation getTextureLocation(SasukeUchihaEntity entity) {
-		return new ResourceLocation("better_katanas:textures/sasuke.png");
+		return new ResourceLocation("better_katanas:textures/entities/sasuke.png");
 	}
 }
