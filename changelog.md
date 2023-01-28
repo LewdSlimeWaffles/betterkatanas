@@ -1,4 +1,4 @@
-## 1.1.2
+## 1.1.3
 Waifu Update 3
 
 * Changes
