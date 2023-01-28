@@ -916,6 +916,74 @@
       "locked_code": false,
       "registry_name": "suzumebachi",
       "path": "~/Sword/Anime Collection"
+    },
+    {
+      "name": "SuzumebachiShikai",
+      "type": "tool",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suzumebachi_shikai",
+      "path": "~/Sword/Anime Collection"
+    },
+    {
+      "name": "SuzumebachiShikaiRightclicked",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suzumebachi_shikai_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Sword/Anime Collection"
+    },
+    {
+      "name": "SuzumebachiShikaiLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suzumebachi_shikai_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Sword/Anime Collection"
+    },
+    {
+      "name": "SuzumebachiRightclicked",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suzumebachi_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Sword/Anime Collection"
+    },
+    {
+      "name": "SuzumebachiFlower",
+      "type": "potioneffect",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suzumebachi_flower"
     }
   ],
   "variable_elements": [],
@@ -944,6 +1012,7 @@
       "advancements.little_war_horn.descr": "Use Murasame\u0027s Little War Horn Ability",
       "advancements.amethyst_blade.title": "Amethyst Blade",
       "entity.better_katanas.rimuru_tempest": "Rimuru Tempest",
+      "item.better_katanas.suzumebachi_shikai": "Suzumebachi Shikai",
       "advancements.blade_of_money.descr": "Craft a blade of bling",
       "item.better_katanas.netherite_katana": "Netherite Katana",
       "item.katana_collection.diamond_katana": "Diamond Katana",
@@ -1000,6 +1069,7 @@
       "advancements.avidya_slash.title": "Dark Cloaked Avidya Slash",
       "gamerule.waifuspawn.description": "Disable to stop Waifu spawns",
       "advancements.first_waifu_husbando.descr": "Befriend your First Waifu or Husbando",
+      "effect.better_katanas.suzumebachi_flower": "Nigeki Kessatsu",
       "advancements.your_first_katana.title": "Your First Katana",
       "item.better_katanas.snake_sword": "Sasuke\u0027s Snake Sword",
       "item.better_katanas.sasuke_uchiha_spawn_egg": "Sasuke Uchiha Spawn Egg",

@@ -31,6 +31,7 @@ import java.util.function.Function;
 import java.util.function.BiConsumer;
 
 import betterkatanas.init.BetterKatanasModTabs;
+import betterkatanas.init.BetterKatanasModMobEffects;
 import betterkatanas.init.BetterKatanasModItems;
 import betterkatanas.init.BetterKatanasModEntities;
 import betterkatanas.init.BetterKatanasModEnchantments;
@@ -52,6 +53,7 @@ public class BetterKatanasMod {
 		BetterKatanasModEntities.REGISTRY.register(bus);
 
 		BetterKatanasModEnchantments.REGISTRY.register(bus);
+		BetterKatanasModMobEffects.REGISTRY.register(bus);
 
 	}
 

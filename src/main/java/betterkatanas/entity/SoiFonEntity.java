@@ -37,6 +37,7 @@ import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.AreaEffectCloud;
 import net.minecraft.world.entity.AgeableMob;
@@ -52,6 +53,7 @@ import net.minecraft.network.chat.TextComponent;
 
 import java.util.List;
 
+import betterkatanas.init.BetterKatanasModItems;
 import betterkatanas.init.BetterKatanasModEntities;
 
 @Mod.EventBusSubscriber
@@ -71,6 +73,7 @@ public class SoiFonEntity extends TamableAnimal {
 		setNoAi(false);
 		setCustomName(new TextComponent("Soi Fon"));
 		setCustomNameVisible(true);
+		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(BetterKatanasModItems.SUZUMEBACHI.get()));
 	}
 
 	@Override

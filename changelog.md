@@ -6,10 +6,14 @@ Waifu Update 3
 	* Soi Fon
 
 * Added Weapons
-	* Sword of Tempest
+	* Sword of Tempest [Rimuru]
+	* Suzumebachi [Soi Fon]
 
 * Weapon skills
-
+	* Shikai Suzumebachi [Right click]
+		* Right Click to go back to suzumebachi
+		* Shiaki has Nigeki Kessatsu skill [hit an enemy twice to deal massive damage]
+	
 * Enchantments
 	* Added *Strength* [Chestplate]
 	* Added *Speed* [Boots]

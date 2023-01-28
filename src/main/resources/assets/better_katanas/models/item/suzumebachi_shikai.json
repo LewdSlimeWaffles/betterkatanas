@@ -1,0 +1,7 @@
+{
+  "parent": "better_katanas:custom/suzumebachi_shikai",
+  "textures": {
+    "0": "better_katanas:blocks/suzumebachi_shikai",
+    "particle": "better_katanas:items/amethyst_katana"
+  }
+}
