@@ -14,6 +14,7 @@ import betterkatanas.init.BetterKatanasModGameRules;
 
 import betterkatanas.entity.YamiSukehiroEntity;
 import betterkatanas.entity.SasukeUchihaEntity;
+import betterkatanas.entity.RimuruTempestEntity;
 import betterkatanas.entity.AkameBossEntity;
 
 @Mod.EventBusSubscriber
@@ -40,6 +41,10 @@ public class WaifuspawngameruleProcedure {
 					event.setCanceled(true);
 				}
 			} else if (entity instanceof YamiSukehiroEntity) {
+				if (event != null && event.isCancelable()) {
+					event.setCanceled(true);
+				}
+			} else if (entity instanceof RimuruTempestEntity) {
 				if (event != null && event.isCancelable()) {
 					event.setCanceled(true);
 				}

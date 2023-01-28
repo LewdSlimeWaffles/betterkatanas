@@ -1,3 +1,25 @@
+## 1.1.2
+Waifu Update 3
+
+* Added Mobs
+	* Rimuru Tempest
+
+* Added Weapons
+	* Sword of Tempest
+
+* Weapon skills
+
+* Enchantments
+	* Added *Strength* [Chestplate]
+	
+* Advancments
+	* Added *Find Sword of Tempest*
+	* Added *Befreind Rimuru*
+
+* Gamerules
+	* Added Gamerule to disable anime character Spawns
+
+
 ## 1.1.1
 Waifu Update number 2
 	

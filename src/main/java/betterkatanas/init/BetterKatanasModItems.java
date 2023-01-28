@@ -15,6 +15,7 @@ import betterkatanas.item.YamiKatanaItem;
 import betterkatanas.item.YamiAdvitaSlashItem;
 import betterkatanas.item.WoodSwordItem;
 import betterkatanas.item.VoidKatanaItem;
+import betterkatanas.item.SwordoftempestItem;
 import betterkatanas.item.StoneKatanaItem;
 import betterkatanas.item.SnakeSwordItem;
 import betterkatanas.item.ObsidianKatanaItem;
@@ -55,4 +56,8 @@ public class BetterKatanasModItems {
 			() -> new ForgeSpawnEggItem(BetterKatanasModEntities.SASUKE_UCHIHA, -13421773, -10092544,
 					new Item.Properties().tab(BetterKatanasModTabs.TAB_BETTER_KATANAS_MOBS)));
 	public static final RegistryObject<Item> SNAKE_SWORD = REGISTRY.register("snake_sword", () -> new SnakeSwordItem());
+	public static final RegistryObject<Item> SWORDOFTEMPEST = REGISTRY.register("swordoftempest", () -> new SwordoftempestItem());
+	public static final RegistryObject<Item> RIMURU_TEMPEST = REGISTRY.register("rimuru_tempest_spawn_egg",
+			() -> new ForgeSpawnEggItem(BetterKatanasModEntities.RIMURU_TEMPEST, -13027015, -10878977,
+					new Item.Properties().tab(BetterKatanasModTabs.TAB_BETTER_KATANAS_MOBS)));
 }

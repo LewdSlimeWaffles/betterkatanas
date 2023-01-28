@@ -29,16 +29,4 @@ Adds Many new Swords (Mostly Katanas)
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.better_katanas]]
-    modId="patchouli"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.better_katanas]]
-    modId="jei"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 

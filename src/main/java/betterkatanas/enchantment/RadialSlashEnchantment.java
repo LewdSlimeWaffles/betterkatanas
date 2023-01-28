@@ -7,6 +7,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.EquipmentSlot;
 
+import java.util.List;
+
 import betterkatanas.init.BetterKatanasModItems;
 
 public class RadialSlashEnchantment extends Enchantment {
@@ -22,10 +24,9 @@ public class RadialSlashEnchantment extends Enchantment {
 	@Override
 	public boolean canApplyAtEnchantingTable(ItemStack stack) {
 		Item item = stack.getItem();
-		return item == BetterKatanasModItems.WOOD_SWORD.get() || item == BetterKatanasModItems.STONE_KATANA.get()
-				|| item == BetterKatanasModItems.IRON_KATANA.get() || item == BetterKatanasModItems.GOLD_KATANA.get()
-				|| item == BetterKatanasModItems.DIAMOND_KATANA.get() || item == BetterKatanasModItems.NETHERITE_KATANA.get()
-				|| item == BetterKatanasModItems.OBSIDIAN_KATANA.get() || item == BetterKatanasModItems.EMERALD_KATANA.get()
-				|| item == BetterKatanasModItems.VOID_KATANA.get() || item == BetterKatanasModItems.AMETHYST_KATANA.get();
+		return List.of(BetterKatanasModItems.WOOD_SWORD.get(), BetterKatanasModItems.STONE_KATANA.get(), BetterKatanasModItems.IRON_KATANA.get(),
+				BetterKatanasModItems.GOLD_KATANA.get(), BetterKatanasModItems.DIAMOND_KATANA.get(), BetterKatanasModItems.NETHERITE_KATANA.get(),
+				BetterKatanasModItems.OBSIDIAN_KATANA.get(), BetterKatanasModItems.EMERALD_KATANA.get(), BetterKatanasModItems.VOID_KATANA.get(),
+				BetterKatanasModItems.AMETHYST_KATANA.get()).contains(item);
 	}
 }

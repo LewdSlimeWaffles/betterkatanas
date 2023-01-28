@@ -3,13 +3,13 @@
   "pattern": [
     "  I",
     " I ",
-    "S  "
+    "T  "
   ],
   "key": {
     "I": {
       "item": "minecraft:iron_ingot"
     },
-    "S": {
+    "T": {
       "item": "better_katanas:stone_katana"
     }
   },

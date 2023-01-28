@@ -3,13 +3,13 @@
   "pattern": [
     "  S",
     " S ",
-    "W  "
+    "O  "
   ],
   "key": {
     "S": {
       "item": "minecraft:smooth_stone"
     },
-    "W": {
+    "O": {
       "item": "better_katanas:wood_sword"
     }
   },

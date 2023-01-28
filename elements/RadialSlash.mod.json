@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "enchantment",
   "definition": {
     "name": "§bRadial Slash",
@@ -9,6 +9,7 @@
     "maxLevel": 3,
     "damageModifier": 0,
     "compatibleEnchantments": [],
+    "excludeEnchantments": false,
     "compatibleItems": [
       {
         "value": "CUSTOM:WoodSword"
@@ -41,6 +42,7 @@
         "value": "CUSTOM:AmethystKatana"
       }
     ],
+    "excludeItems": false,
     "isTreasureEnchantment": false,
     "isCurse": false,
     "isAllowedOnBooks": true,

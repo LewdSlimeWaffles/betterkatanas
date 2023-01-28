@@ -3,13 +3,13 @@
   "pattern": [
     "  G",
     " G ",
-    "S  "
+    "T  "
   ],
   "key": {
     "G": {
       "item": "minecraft:gold_ingot"
     },
-    "S": {
+    "T": {
       "item": "better_katanas:stone_katana"
     }
   },

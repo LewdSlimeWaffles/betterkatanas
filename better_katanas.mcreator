@@ -801,6 +801,77 @@
       "locked_code": true,
       "registry_name": "sasuke",
       "path": "~/Advancements/Waifu and Husbando Collection"
+    },
+    {
+      "name": "Swordoftempest",
+      "type": "tool",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordoftempest",
+      "path": "~/Sword/Anime Collection"
+    },
+    {
+      "name": "RimuruTempest",
+      "type": "livingentity",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rimuru_tempest",
+      "path": "~/Mobs"
+    },
+    {
+      "name": "SwordOfTempestAdvancement",
+      "type": "achievement",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sword_of_tempest_advancement",
+      "path": "~/Advancements/Anime Collection"
+    },
+    {
+      "name": "Rimuru",
+      "type": "achievement",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "rimuru",
+      "path": "~/Advancements/Waifu and Husbando Collection"
+    },
+    {
+      "name": "RimuruLootTable",
+      "type": "loottable",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rimuru_loot_table",
+      "path": "~/Loot Tables"
+    },
+    {
+      "name": "Strength",
+      "type": "enchantment",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength",
+      "path": "~/Enchantments"
+    },
+    {
+      "name": "StrengthEnchant",
+      "type": "procedure",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strength_enchant",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Enchantment procedures"
     }
   ],
   "variable_elements": [],
@@ -810,8 +881,8 @@
       "advancements.little_war_horn.title": "Little War Horn",
       "item.katana_collection.iron_katana": "Iron Katana",
       "advancements.upgraded_blade.title": "Upgraded Blade",
-      "item.katana_collection.emerald_katana": "Emerald Katana",
       "item.better_katanas.iron_katana": "Iron Katana",
+      "item.katana_collection.emerald_katana": "Emerald Katana",
       "advancements.yami.title": "Yami",
       "enchantment.better_katanas.lightning_blade": "Lightning Blade",
       "itemGroup.tabanime_katana_collection": "Anime Katana Collection",
@@ -826,6 +897,7 @@
       "item.better_katanas.heart_for_advancments": "Heart For Advancments",
       "advancements.little_war_horn.descr": "Use Murasame\u0027s Little War Horn Ability",
       "advancements.amethyst_blade.title": "Amethyst Blade",
+      "entity.better_katanas.rimuru_tempest": "Rimuru Tempest",
       "advancements.blade_of_money.descr": "Craft a blade of bling",
       "item.better_katanas.netherite_katana": "Netherite Katana",
       "item.katana_collection.diamond_katana": "Diamond Katana",
@@ -837,18 +909,22 @@
       "item.better_katanas.obsidian_katana": "Obsidian Katana",
       "advancements.snake_sword_advancment.title": "Snake Sword Advancment",
       "advancements.dimaond_covered_blade.descr": "Upgarde to a Diamond Katana",
+      "item.better_katanas.rimuru_tempest_spawn_egg": "Rimuru Tempest Spawn Egg",
       "advancements.your_first_katana.descr": "Craft Your First Katana",
       "item.better_katanas.akame_boss_spawn_egg": "Akame Spawn Egg",
       "item.better_katanas.gold_katana": "Gold Katana",
       "item.better_katanas.yami_advita_slash": "Yami Advita Slash",
       "advancements.obby_sword.title": "Obby Sword",
       "advancements.yami_katana_get.title": "Dark Magic Katana",
+      "advancements.rimuru.descr": "Make Akame your Waifu",
       "item.katana_collection.stone_katana": "Stone Katana",
       "item.katana_collection.wood_sword": "Wood Katana",
+      "item.better_katanas.swordoftempest": "Sasuke\u0027s Snake Sword",
       "advancements.void_blade.title": "Void Blade",
       "item.katana_collection.murasame": "Murasame",
       "entity.better_katanas.akame_boss": "Akame",
       "enchantment.better_katanas.radial_slash": "§bRadial Slash",
+      "advancements.sword_of_tempest_advancement.descr": "Find the Sword of Tempest",
       "item.better_katanas.wood_sword": "Wood Katana",
       "item.better_katanas.emerald_katana": "Emerald Katana",
       "advancements.blade_of_debris.title": "Blade Of Debris",
@@ -857,6 +933,7 @@
       "advancements.murasame_advancement.descr": "Find Murasame",
       "advancements.dimaond_covered_blade.title": "Diamond Covered Blade",
       "advancements.murasame_advancement.title": "One-Cut Killer: Murasame",
+      "advancements.sword_of_tempest_advancement.title": "Tempest",
       "item.better_katanas.stone_katana": "Stone Katana",
       "advancements.sasuke.title": "Waifu Akame",
       "advancements.anime_collection_katanas.descr": "A Collection of katana\u0027s from Anime for you to find.",
@@ -882,7 +959,9 @@
       "entity.better_katanas.sasuke_uchiha": "Sasuke Uchiha",
       "advancements.murasame_curse_kill.descr": "Get a kill with Murasame\u0027s Curse",
       "advancements.akame.descr": "Make Akame your Waifu",
+      "advancements.rimuru.title": "Waifu Akame",
       "item.katana_collection.netherite_katana": "Netherite Katana",
+      "enchantment.better_katanas.strength": "Strength",
       "advancements.void_blade.descr": "Strongest Blade",
       "entity.better_katanas.yami_sukehiro": "Yami Sukehiro",
       "item.better_katanas.murasame": "Murasame",
@@ -986,5 +1065,5 @@
     "modElementsPackage": "betterkatanas",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200234517
+  "mcreatorVersion": 202200348217
 }
