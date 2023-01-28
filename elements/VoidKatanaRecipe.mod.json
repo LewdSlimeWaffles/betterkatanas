@@ -2,42 +2,19 @@
   "_fv": 34,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Crafting",
+    "recipeType": "Smithing",
     "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
-    "recipeShapeless": true,
-    "recipeSlots": [
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:ObsidianKatana"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:EmeraldKatana"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:NetheriteKatana"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      }
-    ],
-    "recipeReturnStack": {
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:NetheriteKatana"
+    },
+    "smithingInputAdditionStack": {
+      "value": "Items.NETHER_STAR"
+    },
+    "smithingReturnStack": {
       "value": "CUSTOM:VoidKatana"
     },
     "name": "void_katana_recipe",

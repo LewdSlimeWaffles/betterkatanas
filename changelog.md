@@ -1,6 +1,9 @@
 ## 1.1.2
 Waifu Update 3
 
+* Changes
+	* Made all vanilla katanas damage be equal to the vanilla swords but with higher attack speed
+
 * Added Mobs
 	* Rimuru Tempest
 	* Soi Fon
