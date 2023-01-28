@@ -898,6 +898,24 @@
         ]
       },
       "path": "~/Procedures/Enchantment procedures"
+    },
+    {
+      "name": "SoiFon",
+      "type": "livingentity",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soi_fon",
+      "path": "~/Mobs"
+    },
+    {
+      "name": "Suzumebachi",
+      "type": "tool",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suzumebachi",
+      "path": "~/Sword/Anime Collection"
     }
   ],
   "variable_elements": [],
@@ -914,6 +932,7 @@
       "itemGroup.tabanime_katana_collection": "Anime Katana Collection",
       "item.better_katanas.yami_sukehiro_spawn_egg": "Yami Sukehiro Spawn Egg",
       "advancements.amethyst_blade.descr": "Make a Amethyst katana",
+      "item.better_katanas.soi_fon_spawn_egg": "Soi Fon Spawn Egg",
       "advancements.upgraded_blade.descr": "Upgrade your katana",
       "advancements.yami.descr": "Make Yami your husbando",
       "advancements.avidya_slash.descr": "Use Dark Cloaked Avidya Slash",
@@ -921,6 +940,7 @@
       "itemGroup.tabkatana_collection": "Katana Collection",
       "advancements.akame.title": "Waifu Akame",
       "item.better_katanas.heart_for_advancments": "Heart For Advancments",
+      "entity.better_katanas.soi_fon": "Soi Fon",
       "advancements.little_war_horn.descr": "Use Murasame\u0027s Little War Horn Ability",
       "advancements.amethyst_blade.title": "Amethyst Blade",
       "entity.better_katanas.rimuru_tempest": "Rimuru Tempest",
@@ -945,7 +965,7 @@
       "advancements.rimuru.descr": "Make Akame your Waifu",
       "item.katana_collection.stone_katana": "Stone Katana",
       "item.katana_collection.wood_sword": "Wood Katana",
-      "item.better_katanas.swordoftempest": "Sasuke\u0027s Snake Sword",
+      "item.better_katanas.swordoftempest": "Sword of Tempest",
       "advancements.void_blade.title": "Void Blade",
       "item.katana_collection.murasame": "Murasame",
       "enchantment.better_katanas.speed": "Speed",
@@ -984,6 +1004,7 @@
       "item.better_katanas.snake_sword": "Sasuke\u0027s Snake Sword",
       "item.better_katanas.sasuke_uchiha_spawn_egg": "Sasuke Uchiha Spawn Egg",
       "entity.better_katanas.sasuke_uchiha": "Sasuke Uchiha",
+      "item.better_katanas.suzumebachi": "Suzumebachi",
       "advancements.murasame_curse_kill.descr": "Get a kill with Murasame\u0027s Curse",
       "advancements.akame.descr": "Make Akame your Waifu",
       "advancements.rimuru.title": "Waifu Akame",

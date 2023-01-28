@@ -16,6 +16,7 @@ import betterkatanas.item.YamiAdvitaSlashItem;
 import betterkatanas.item.WoodSwordItem;
 import betterkatanas.item.VoidKatanaItem;
 import betterkatanas.item.SwordoftempestItem;
+import betterkatanas.item.SuzumebachiItem;
 import betterkatanas.item.StoneKatanaItem;
 import betterkatanas.item.SnakeSwordItem;
 import betterkatanas.item.ObsidianKatanaItem;
@@ -60,4 +61,8 @@ public class BetterKatanasModItems {
 	public static final RegistryObject<Item> RIMURU_TEMPEST = REGISTRY.register("rimuru_tempest_spawn_egg",
 			() -> new ForgeSpawnEggItem(BetterKatanasModEntities.RIMURU_TEMPEST, -13027015, -10878977,
 					new Item.Properties().tab(BetterKatanasModTabs.TAB_BETTER_KATANAS_MOBS)));
+	public static final RegistryObject<Item> SOI_FON = REGISTRY.register("soi_fon_spawn_egg",
+			() -> new ForgeSpawnEggItem(BetterKatanasModEntities.SOI_FON, -13159, -10092289,
+					new Item.Properties().tab(BetterKatanasModTabs.TAB_BETTER_KATANAS_MOBS)));
+	public static final RegistryObject<Item> SUZUMEBACHI = REGISTRY.register("suzumebachi", () -> new SuzumebachiItem());
 }

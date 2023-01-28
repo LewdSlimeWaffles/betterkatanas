@@ -4,10 +4,10 @@
   "definition": {
     "renderType": 1,
     "texture": "amethyst_katana",
-    "customModelName": "sword_of_tempest:default",
-    "name": "Sword of Tempest",
+    "customModelName": "sword_of_tempest:soifon",
+    "name": "Suzumebachi",
     "specialInfo": [
-      "Blade Wielded By §bRimuru Tempest"
+      "Blade Wielded By §0Soi Fon"
     ],
     "creativeTab": {
       "value": "CUSTOM:AnimeKatanaCollection"

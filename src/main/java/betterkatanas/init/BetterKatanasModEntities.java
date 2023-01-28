@@ -18,6 +18,7 @@ import net.minecraft.world.entity.Entity;
 
 import betterkatanas.entity.YamiSukehiroEntity;
 import betterkatanas.entity.YamiAdvitaSlashEntity;
+import betterkatanas.entity.SoiFonEntity;
 import betterkatanas.entity.SasukeUchihaEntity;
 import betterkatanas.entity.RimuruTempestEntity;
 import betterkatanas.entity.AkameBossEntity;
@@ -49,6 +50,9 @@ public class BetterKatanasModEntities {
 	public static final RegistryObject<EntityType<RimuruTempestEntity>> RIMURU_TEMPEST = register("rimuru_tempest",
 			EntityType.Builder.<RimuruTempestEntity>of(RimuruTempestEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RimuruTempestEntity::new).fireImmune().sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<SoiFonEntity>> SOI_FON = register("soi_fon",
+			EntityType.Builder.<SoiFonEntity>of(SoiFonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(3).setCustomClientFactory(SoiFonEntity::new).fireImmune().sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -61,6 +65,7 @@ public class BetterKatanasModEntities {
 			YamiSukehiroEntity.init();
 			SasukeUchihaEntity.init();
 			RimuruTempestEntity.init();
+			SoiFonEntity.init();
 		});
 	}
 
@@ -70,5 +75,6 @@ public class BetterKatanasModEntities {
 		event.put(YAMI_SUKEHIRO.get(), YamiSukehiroEntity.createAttributes().build());
 		event.put(SASUKE_UCHIHA.get(), SasukeUchihaEntity.createAttributes().build());
 		event.put(RIMURU_TEMPEST.get(), RimuruTempestEntity.createAttributes().build());
+		event.put(SOI_FON.get(), SoiFonEntity.createAttributes().build());
 	}
 }

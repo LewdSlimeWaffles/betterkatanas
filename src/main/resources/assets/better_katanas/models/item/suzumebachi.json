@@ -1,0 +1,7 @@
+{
+  "parent": "better_katanas:custom/sword_of_tempest",
+  "textures": {
+    "0": "better_katanas:blocks/suzumebachi",
+    "particle": "better_katanas:items/amethyst_katana"
+  }
+}
