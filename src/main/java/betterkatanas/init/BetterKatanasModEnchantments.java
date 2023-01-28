@@ -12,6 +12,7 @@ import net.minecraft.world.item.enchantment.Enchantment;
 
 import betterkatanas.enchantment.TrueSharpnessEnchantment;
 import betterkatanas.enchantment.StrengthEnchantment;
+import betterkatanas.enchantment.SpeedEnchantment;
 import betterkatanas.enchantment.RadialSlashEnchantment;
 import betterkatanas.enchantment.LightningBladeEnchantment;
 
@@ -23,4 +24,5 @@ public class BetterKatanasModEnchantments {
 	public static final RegistryObject<Enchantment> TRUE_SHARPNESS = REGISTRY.register("true_sharpness", () -> new TrueSharpnessEnchantment());
 	public static final RegistryObject<Enchantment> LIGHTNING_BLADE = REGISTRY.register("lightning_blade", () -> new LightningBladeEnchantment());
 	public static final RegistryObject<Enchantment> STRENGTH = REGISTRY.register("strength", () -> new StrengthEnchantment());
+	public static final RegistryObject<Enchantment> SPEED = REGISTRY.register("speed", () -> new SpeedEnchantment());
 }

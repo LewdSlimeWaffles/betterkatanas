@@ -3,6 +3,7 @@ Waifu Update 3
 
 * Added Mobs
 	* Rimuru Tempest
+	* Soi Fon
 
 * Added Weapons
 	* Sword of Tempest
@@ -11,6 +12,7 @@ Waifu Update 3
 
 * Enchantments
 	* Added *Strength* [Chestplate]
+	* Added *Speed* [Boots]
 	
 * Advancments
 	* Added *Find Sword of Tempest*
