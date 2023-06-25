@@ -1,3 +1,32 @@
+## 1.1.4
+Sculk Update
+
+* Changed Textures
+    * Wood Katana
+    * Stone Katana
+    * Iron Katana
+    * Gold Katana
+    * Diamond Katana
+    * Emerald Katana
+    * Netherite Katana
+    * Obsidian Katana
+    * Void Katana
+    * Yami Katana
+    * Murasame
+
+* Added Katanas
+    * Echo Katana
+    * Sculk Katana
+
+* Abilities Added
+    * Sculk Katana
+        * Right Click Ability
+     
+* Advancment
+    * Get Echo Katana
+    * Get Sculk Katana 
+
+
 ## 1.1.3
 Waifu Update 3
 
